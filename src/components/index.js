@@ -1,3 +1,4 @@
 import Counter from './counter';
 import Login from './login';
-export { Counter, Login }
+import LoginSubmission from './login-submission';
+export { Counter, Login, LoginSubmission };

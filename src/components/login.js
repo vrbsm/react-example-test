@@ -3,7 +3,7 @@ function Login({onSubmit}) {
 	function handleSubmit(event) {
 		event.preventDefault();
 		const {username, password} = event.target.elements;
-		onSubmit({ username: username.value, password: password.value});
+		onSubmit({ email: username.value, password: password.value});
 	}
   return (
     <form onSubmit={handleSubmit}>

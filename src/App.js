@@ -1,5 +1,5 @@
 import './App.css';
-import { Counter, Login } from './components'
+import { Counter, Login, LoginSubmission } from './components'
 function App() {
   return (
     <div className="App">
@@ -8,9 +8,13 @@ function App() {
         <Counter />
       </div> */}
 
-      <div>
+      {/* <div>
         <p>Exercicio 2</p>
         <Login />
+      </div> */}
+      <div>
+        <p>Exercicio 3</p>
+        <LoginSubmission />
       </div>
     </div>
   );
